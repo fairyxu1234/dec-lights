@@ -35,7 +35,7 @@ public class Config extends IdEntity {
 	/**
 	 * 配置文件名
 	 */
-	@Length(min = 2, max = 56)
+	@Length(min = 2, max = 64)
 	private String name;
 	/**
 	 * 配置文件路径
