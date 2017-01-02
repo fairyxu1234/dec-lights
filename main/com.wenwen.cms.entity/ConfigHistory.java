@@ -29,7 +29,7 @@ public class ConfigHistory extends Config {
 
 	@Override
 	public String toString() {
-		final StringBuilder sb = new StringBuilder("ConfigHistory{");
+		final StringBuilder sb = new StringBuilder("ConfigHistory2{");
 		sb.append("name=").append(getName()).append(',');
 		sb.append("profile=").append(getProfile()).append(',');
 		sb.append("version=").append(getVersion());
