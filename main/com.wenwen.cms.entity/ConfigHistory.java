@@ -16,12 +16,12 @@ public class ConfigHistory extends Config {
 		this.configId = configId;
 	}
 
-	public void copy(Config old) {
+	public void copylist(Config old) {
 		this.setVersion(old.getVersion());
 		this.setName(old.getName());
 		this.setProfile(old.getProfile());
 		this.setPath(old.getPath());
-		this.setContent(old.getContent());
+		//this.setContent(old.getContent());
 		this.setEditor(old.getEditor());
 		this.setModifyTime(old.getModifyTime());
 		this.setConfigId(old.getId());
